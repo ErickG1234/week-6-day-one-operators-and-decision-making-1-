@@ -141,15 +141,16 @@ print(my_bool)
 # Logical Operators Practice #3
 # Check if the words:
 
-# withord1 = "success", and
+word1 = "success"
 
-# word2 = "technology"
+word2 = "technology"
 
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
 text = "When something is important enough, you do it even if the odds are against you"  #Elon Musk
 
-my_bool = ("success" in text) and ('technology' in text)
+# my_bool = ("success" in text) and ('technology' in text) or
+my_bool = ("word1" in text) and ('word2' in text)
 print(my_bool)
 
 
@@ -157,6 +158,25 @@ print(my_bool)
 
 
 ########################################decision making in python#####################################
+# lesson
+# if 5 == 2:
+#   print("it is correct")
+# else:
+#   print("it is not correct")
+
+pet = 'rabbit'
+if pet == 'cat':
+  print("you have a cat")
+elif pet == 'fish':
+  print("you have a fish")
+elif pet == 'dog':
+  print("you have a dog")
+else:
+  print("I don't know what animal you have")
+
+  
+  
+
 
 
 
